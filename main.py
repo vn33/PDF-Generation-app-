@@ -34,4 +34,5 @@ for index, row in df.iterrows():
         pdf.cell(w=0, h=10, txt=row['Topic'], align="R")
 
 
+
 pdf.output("output.pdf")
